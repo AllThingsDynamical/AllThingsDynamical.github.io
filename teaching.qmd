@@ -1,15 +1,55 @@
 ---
-title: "Teaching"
-description: "Teaching, tutorials, and lecture notes."
+title: ""
+description: ""
 ---
 
-## Courses and tutorials
+## Teaching Assistant
 
-- Numerical linear algebra
-- Scientific computing
-- Probability and statistics
-- Optimization
+::: {.project-card}
 
-## Lecture notes
+#### Monte Carlo Methods for Statistical Inference
 
-Add PDFs or Quarto notes here.
+**Lund University**  
+2025–2026
+
+Topics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.
+
+:::
+
+::: {.project-card}
+
+#### Time Series Modeling
+
+**Lund University**  
+2024–2026
+
+Topics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.
+
+:::
+
+::: {.project-card}
+
+#### Stationary Stochastic Processes
+
+**Lund University**  
+2024–2026
+
+Topics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.
+
+:::
+
+::: {.project-card}
+
+#### Scientific Computing I
+
+**Technical University of Munich**  
+2022
+
+Topics included numerical linear algebra, numerical methods for ordinary and partial differential equations.
+
+:::
+
+## Mentoring
+
+I enjoy intellectually honest discussions with students in all matters scientific computing with a penchant for methodologies.
+A good place to start a conversation is to read an article from an issue of SIAM SISC and drop me an email to discuss it.

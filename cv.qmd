@@ -3,26 +3,24 @@ title: "CV"
 description: "Curriculum vitae."
 ---
 
-Download the latest CV:
-
 [Download CV](assets/cv/cv.pdf){.btn .btn-primary}
 
-## Snapshot
+### About
 
 **Rahul Manavalan**  
-Doctoral student in mathematical statistics / scientific computing.
+MPhil student in mathematical statistics and scientific computing.
 
 ### Interests
 
-Scientific computing, numerical analysis, inverse problems, PDEs, kernel methods, uncertainty quantification.
+Scientific computing, numerical analysis, inverse problems, and uncertainty quantification.
 
 ### Education
 
-- PhD studies, Mathematical Statistics, Lund University.
+- MPhil/Licentiate, Mathematical Statistics, Lund University.
 - MSc, Computational Science and Engineering, Technical University of Munich.
-- B.Tech, Mechanical Engineering.
+- B.E, Mechanical Engineering, Government College of Technology.
 
-### Links
+### Contact
 
 - GitHub: <https://github.com/AllThingsDynamical>
-- Email: `your.email@example.com`
+- Email: `dynamicqueries@gmail.com`

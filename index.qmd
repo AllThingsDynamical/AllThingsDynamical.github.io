@@ -1,6 +1,6 @@
 ---
-title: "Rahul Manavalan"
-description: "Academic portfolio in scientific computing, dynamical systems, and numerical analysis."
+title: ""
+description: ""
 listing: false
 ---
 
@@ -8,25 +8,24 @@ listing: false
 ::: {.hero-text}
 # Rahul Manavalan
 
-### Scientific Computing · Dynamical Systems · Numerical Analysis
+I work on variational formulations, their associated optimization flows, and structure-preserving numerical algorithms for problems in scientific computing and inverse problems. 
 
-I work on variational formulations, continuous-time flows, and structure-preserving numerical algorithms for scientific computing.
+Broadly, my interests span:
 
-[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline} [Blog](blog.qmd){.btn .btn-outline}
+- Scientific Computing 
+- Mathematical Physics
+- Numerical Analysis
+- Uncertainty quantification
+- Inverse Problems
+
+For more details, visit:
+
+
+[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-primary} [Blog](blog.qmd){.btn .btn-primary}
 :::
 
-::: {.hero-card}
-**Current theme**
+![](assets/img/images.jpeg){width=100%}
 
-Variational problem  
-$\rightarrow$ flow/operator  
-$\rightarrow$ discretization  
-$\rightarrow$ algorithm
-
-**Keywords**
-
-gradient flows · momentum flows · PDEs · Krylov methods · kernels · UQ
-:::
 :::
 
 ## Selected research directions
@@ -35,28 +34,29 @@ gradient flows · momentum flows · PDEs · Krylov methods · kernels · UQ
 ::: {.g-col-12 .g-col-md-4}
 ### Flow-based solvers
 
-Exponential and inertial flows for linear systems, inverse problems, and constrained optimization.
+How can one derive and classify iterative solvers for solving **linear algebraic systems** and **saddle point systems** as discretizations of continuous dynamical systems?
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Kernel and spline methods
+### Kernel methods
 
-Boundary-aware interpolation, generalized observations, and approximation on structured domains.
+How can one construct **RBF kernels** that **exactly** satisfy **Dirichlet and Neumann boundary conditions**? 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Imaging and PDEs
+### Inverse Problems and PDEs
 
-Dissipative and inertial PDE models for restoration, inpainting, and inverse problems.
+How can **PDEs that arise from inverse problems** be used to obtain **theoretical guarantees** on the numerical methods that solve the corresponding inverse problems?
 :::
 :::
 
-## Recent notes
+## Recent news
 
 ```{=html}
 <div class="callout-note">
-  <strong>Edit this template:</strong> replace the placeholder email, CV, publication metadata, and project descriptions with your real details.
+  <strong>New preprint:</strong> Our paper on <i>Krylov smoothers for solving linear systems</i> is on <i>arxiv</i>.
 </div>
+
 ```
 
 ## Latest blog posts

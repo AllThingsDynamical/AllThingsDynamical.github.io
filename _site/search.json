@@ -1,0 +1,358 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "RM Research",
+    "section": "",
+    "text": "My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:\n\\[\n\\text{variational problem}\n\\quad\\longrightarrow\\quad\n\\text{flow}\n\\quad\\longrightarrow\\quad\n\\text{discretization}\n\\quad\\longrightarrow\\quad\n\\text{algorithm}.\n\\]\nThis perspective is useful because it provides an abstract framework for understanding families of algorithms. A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling."
+  },
+  {
+    "objectID": "research.html#research-vision",
+    "href": "research.html#research-vision",
+    "title": "RM Research",
+    "section": "",
+    "text": "My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:\n\\[\n\\text{variational problem}\n\\quad\\longrightarrow\\quad\n\\text{flow}\n\\quad\\longrightarrow\\quad\n\\text{discretization}\n\\quad\\longrightarrow\\quad\n\\text{algorithm}.\n\\]\nThis perspective is useful because it provides an abstract framework for understanding families of algorithms. A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling."
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "RM Research",
+    "section": "Projects",
+    "text": "Projects\n\nUnconditionally stable gradient and momentum flow solvers\nClassical linear solvers can be interpreted as discretizations or approximations of continuous residual flows. The aim is to design finite-time spectral filters and Krylov approximations with strong stability properties.\nDuration: Oct 2025 to July 2026\nTopics: linear systems, Krylov methods, exponential integrators, spectral filters.\n\n\nInertial PDEs for image inpainting\nSecond-order-in-time variants of dissipative imaging PDEs may improve basin escape and information propagation while retaining stability through suitable semigroup discretizations.\nDuration: Jan 2026 to July 2026\nTopics: Cahn–Hilliard, image inpainting, exponential integrators, attractors.\n\n\nNonlinear regression as a dissipative dynamical system\nNonlinear regression can be studied through gradient flows in function space, enabling questions about well-posedness, attractors, discretization, and convergence.\nDuration: July 2026 to Oct 2026\nTopics: RKHS, Hilbert-space flows, global attractors, Łojasiewicz inequalities.\n\n\nBoundary-aware kernel interpolation\nKernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.\nDuration: July 2026 to Nov 2026\nTopics: RBF interpolation, RKHS theory, Coxeter groups, Approximation theory."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Gradient Flows for Linear Solvers\n\n\n\nnumerical-analysis\n\n\nlinear-systems\n\n\ngradient-flows\n\n\n\nA short note on deriving iterative solvers from continuous residual flows.\n\n\n\nRahul Manavalan\n\n\nJul 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nNonlinear RKHS Regression as a Dissipative Flow\n\n\n\nrkhs\n\n\npde\n\n\ndynamical-systems\n\n\n\nA sketch of a function-space dynamical systems viewpoint on nonlinear regression.\n\n\n\nRahul Manavalan\n\n\nJul 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPDF Import Demo\n\n\n\nworkflow\n\n\npdf\n\n\n\nDemonstrates the PDF-to-post workflow.\n\n\n\nRahul Manavalan\n\n\nJul 6, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "posts/gradient-flows-linear-solvers/index.html",
+    "href": "posts/gradient-flows-linear-solvers/index.html",
+    "title": "Gradient Flows for Linear Solvers",
+    "section": "",
+    "text": "Consider the quadratic residual functional\n\\[\n\\Phi(x) = \\frac12 \\|Ax-b\\|^2.\n\\]\nIts gradient flow is\n\\[\n\\dot{x}(t) = -A^\\top(Ax(t)-b).\n\\]\nFor symmetric positive definite systems, a preconditioned flow gives\n\\[\n\\dot{x}(t) = P(b-Ax(t)).\n\\]\nThe exact finite-time update is\n\\[\nx(t+\\tau)\n=\nx(t)\n+\n(PA)^{-1}\\left(I-\\exp(-\\tau PA)\\right)P(b-Ax(t)).\n\\]\nThis suggests a family of solvers indexed by the time step and by the approximation of the matrix function.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Gradient Flows for Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/gradient-flows-linear-solvers/index.html#the-basic-idea",
+    "href": "posts/gradient-flows-linear-solvers/index.html#the-basic-idea",
+    "title": "Gradient Flows for Linear Solvers",
+    "section": "",
+    "text": "Consider the quadratic residual functional\n\\[\n\\Phi(x) = \\frac12 \\|Ax-b\\|^2.\n\\]\nIts gradient flow is\n\\[\n\\dot{x}(t) = -A^\\top(Ax(t)-b).\n\\]\nFor symmetric positive definite systems, a preconditioned flow gives\n\\[\n\\dot{x}(t) = P(b-Ax(t)).\n\\]\nThe exact finite-time update is\n\\[\nx(t+\\tau)\n=\nx(t)\n+\n(PA)^{-1}\\left(I-\\exp(-\\tau PA)\\right)P(b-Ax(t)).\n\\]\nThis suggests a family of solvers indexed by the time step and by the approximation of the matrix function.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Gradient Flows for Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/gradient-flows-linear-solvers/index.html#why-this-is-useful",
+    "href": "posts/gradient-flows-linear-solvers/index.html#why-this-is-useful",
+    "title": "Gradient Flows for Linear Solvers",
+    "section": "Why this is useful",
+    "text": "Why this is useful\nSmall time steps recover classical stationary iterations. Large time steps approximate projection onto a Krylov or spectral subspace. The flow viewpoint gives a clean language for stability, filtering, and acceleration.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Gradient Flows for Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/gradient-flows-linear-solvers/index.html#pdf-attachment-pattern",
+    "href": "posts/gradient-flows-linear-solvers/index.html#pdf-attachment-pattern",
+    "title": "Gradient Flows for Linear Solvers",
+    "section": "PDF attachment pattern",
+    "text": "PDF attachment pattern\nPut a PDF next to this post and link it:\nDownload the accompanying PDF",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Gradient Flows for Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV\n\nAbout\nRahul Manavalan\nMPhil student in mathematical statistics and scientific computing.\n\n\nInterests\nScientific computing, numerical analysis, inverse problems, and uncertainty quantification.\n\n\nEducation\n\nMPhil/Licentiate, Mathematical Statistics, Lund University.\nMSc, Computational Science and Engineering, Technical University of Munich.\nB.E, Mechanical Engineering, Government College of Technology.\n\n\n\nContact\n\nGitHub: https://github.com/AllThingsDynamical\nEmail: dynamicqueries@gmail.com\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "cv.html#snapshot",
+    "href": "cv.html#snapshot",
+    "title": "CV",
+    "section": "Snapshot",
+    "text": "Snapshot\nRahul Manavalan\nMPhil student in mathematical statistics / scientific computing.\n\nInterests\nScientific computing, numerical analysis, inverse problems, and uncertainty quantification.\n\n\nEducation\n\nMPhil/Licentiate, Mathematical Statistics, Lund University.\nMSc, Computational Science and Engineering, Technical University of Munich.\nB.E, Mechanical Engineering, Government College of Technology.\n\n\n\nLinks\n\nGitHub: https://github.com/AllThingsDynamical\nEmail: dynamicqueries@gmail.com"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "RM Research",
+    "section": "",
+    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
+  },
+  {
+    "objectID": "publications.html#selected-publications-and-preprints",
+    "href": "publications.html#selected-publications-and-preprints",
+    "title": "RM Research",
+    "section": "",
+    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
+  },
+  {
+    "objectID": "publications.html#bibtex",
+    "href": "publications.html#bibtex",
+    "title": "RM Research",
+    "section": "BibTeX",
+    "text": "BibTeX\n@unpublished{manavalan2026linearflows,\n  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
+  },
+  {
+    "objectID": "publications.html#optional-generate-this-page-from-bibtex",
+    "href": "publications.html#optional-generate-this-page-from-bibtex",
+    "title": "Publications",
+    "section": "Optional: generate this page from BibTeX",
+    "text": "Optional: generate this page from BibTeX\nFor a larger publication list, keep entries in references.bib and render them with Quarto citations."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rahul Manavalan",
+    "section": "",
+    "text": "I work on variational formulations, their associated optimization flows, and structure-preserving numerical algorithms for problems in scientific computing and inverse problems.\nBroadly, my interests span:\n\nScientific Computing\nMathematical Physics\nNumerical Analysis\nUncertainty quantification\nInverse Problems\n\nFor more details, visit:\nResearch Publications Blog"
+  },
+  {
+    "objectID": "index.html#selected-research-directions",
+    "href": "index.html#selected-research-directions",
+    "title": "Rahul Manavalan",
+    "section": "Selected research directions",
+    "text": "Selected research directions\n\n\nFlow-based solvers\nHow can one derive and classify iterative solvers for solving linear algebraic systems and saddle point systems as discretizations of continuous dynamical systems?\n\n\nKernel methods\nHow can one construct RBF kernels that exactly satisfy Dirichlet and Neumann boundary conditions?\n\n\nInverse Problems and PDEs\nHow can PDEs that arise from inverse problems be used to obtain theoretical guarantees on the numerical methods that solve the corresponding inverse problems?"
+  },
+  {
+    "objectID": "index.html#recent-notes",
+    "href": "index.html#recent-notes",
+    "title": "Rahul Manavalan",
+    "section": "Recent notes",
+    "text": "Recent notes\n\n  Edit this template: replace the placeholder email, CV, publication metadata, and project descriptions with your real details."
+  },
+  {
+    "objectID": "index.html#latest-blog-posts",
+    "href": "index.html#latest-blog-posts",
+    "title": "Rahul Manavalan",
+    "section": "Latest blog posts",
+    "text": "Latest blog posts\n\n  \n    Numerical analysis\n    Gradient Flows for Linear Solvers\n    A short note on viewing classical iterative methods as discretized flows.\n  \n  \n    Dynamical systems\n    Nonlinear RKHS Regression as a Flow\n    Sketching a dissipative PDE viewpoint for nonlinear regression."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Add upcoming talks here."
+  },
+  {
+    "objectID": "talks.html#upcoming",
+    "href": "talks.html#upcoming",
+    "title": "Talks",
+    "section": "",
+    "text": "Add upcoming talks here."
+  },
+  {
+    "objectID": "talks.html#selected-talks",
+    "href": "talks.html#selected-talks",
+    "title": "Talks",
+    "section": "Selected talks",
+    "text": "Selected talks\n\n\n2026 — Gradient and Momentum Flows for Linear Systems, seminar placeholder.\n2026 — Boundary-Aware Kernel Interpolation, seminar placeholder."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "RandomizedLinearAlgebra.jl\nA Julia package for direct randomized linear solvers based on sketching, and low-rank approximation. The package supports automatic differentiation for estimating the adjoints with respect to the parameters of the randomized algorithmic maps.\nStatus: Research grade. (Production version coming soon.)\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/nonlinear-rkhs-regression/index.html",
+    "href": "posts/nonlinear-rkhs-regression/index.html",
+    "title": "Nonlinear RKHS Regression as a Dissipative Flow",
+    "section": "",
+    "text": "Let \\(u\\) be an unknown function in a Hilbert space \\(H\\). A nonlinear regression problem can be written abstractly as\n\\[\n\\min_{u\\in H}\n\\frac12\\|G(u)-y\\|^2 + \\frac{\\alpha}{2}\\|u\\|_H^2.\n\\]\nThe associated gradient flow is\n\\[\n\\dot{u}\n=\n- DG(u)^\\ast(G(u)-y) - \\alpha u.\n\\]\nThis turns nonlinear regression into an infinite-dimensional dissipative dynamical system.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Nonlinear RKHS Regression as a Dissipative Flow"
+    ]
+  },
+  {
+    "objectID": "posts/nonlinear-rkhs-regression/index.html#setup",
+    "href": "posts/nonlinear-rkhs-regression/index.html#setup",
+    "title": "Nonlinear RKHS Regression as a Dissipative Flow",
+    "section": "",
+    "text": "Let \\(u\\) be an unknown function in a Hilbert space \\(H\\). A nonlinear regression problem can be written abstractly as\n\\[\n\\min_{u\\in H}\n\\frac12\\|G(u)-y\\|^2 + \\frac{\\alpha}{2}\\|u\\|_H^2.\n\\]\nThe associated gradient flow is\n\\[\n\\dot{u}\n=\n- DG(u)^\\ast(G(u)-y) - \\alpha u.\n\\]\nThis turns nonlinear regression into an infinite-dimensional dissipative dynamical system.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Nonlinear RKHS Regression as a Dissipative Flow"
+    ]
+  },
+  {
+    "objectID": "posts/nonlinear-rkhs-regression/index.html#analysis-program",
+    "href": "posts/nonlinear-rkhs-regression/index.html#analysis-program",
+    "title": "Nonlinear RKHS Regression as a Dissipative Flow",
+    "section": "Analysis program",
+    "text": "Analysis program\nA natural paper structure is:\n\nwell-posedness of the flow;\nexistence of absorbing sets;\nexistence and regularity of a global attractor;\nconvergence to equilibria under a Łojasiewicz–Simon inequality;\nexponential-in-time discretization;\nspatial discretization by FEM or domain decomposition;\nnumerical experiments.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Nonlinear RKHS Regression as a Dissipative Flow"
+    ]
+  },
+  {
+    "objectID": "posts/pdf-import-demo/index.html",
+    "href": "posts/pdf-import-demo/index.html",
+    "title": "PDF Import Demo",
+    "section": "",
+    "text": "This template treats PDF upload as a draft-import step, not as the canonical writing format.\npython scripts/pdf_to_post.py assets/papers/sample-paper.pdf\nThe script creates a new draft under posts/.\nFor math-heavy documents, keep the .tex, .qmd, or .md source whenever possible.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "PDF Import Demo"
+    ]
+  },
+  {
+    "objectID": "posts/pdf-import-demo/index.html#workflow",
+    "href": "posts/pdf-import-demo/index.html#workflow",
+    "title": "PDF Import Demo",
+    "section": "",
+    "text": "This template treats PDF upload as a draft-import step, not as the canonical writing format.\npython scripts/pdf_to_post.py assets/papers/sample-paper.pdf\nThe script creates a new draft under posts/.\nFor math-heavy documents, keep the .tex, .qmd, or .md source whenever possible.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "PDF Import Demo"
+    ]
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "RM Research",
+    "section": "",
+    "text": "Lund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, numerical methods for ordinary and partial differential equations."
+  },
+  {
+    "objectID": "teaching.html#courses-and-tutorials",
+    "href": "teaching.html#courses-and-tutorials",
+    "title": "Teaching",
+    "section": "",
+    "text": "Numerical linear algebra\nScientific computing\nProbability and statistics\nOptimization"
+  },
+  {
+    "objectID": "teaching.html#lecture-notes",
+    "href": "teaching.html#lecture-notes",
+    "title": "Teaching",
+    "section": "Lecture notes",
+    "text": "Lecture notes\nAdd PDFs or Quarto notes here."
+  },
+  {
+    "objectID": "cv.html#about",
+    "href": "cv.html#about",
+    "title": "CV",
+    "section": "About",
+    "text": "About\nRahul Manavalan\nMPhil student in mathematical statistics / scientific computing.\n\nInterests\nScientific computing, numerical analysis, inverse problems, and uncertainty quantification.\n\n\nEducation\n\nMPhil/Licentiate, Mathematical Statistics, Lund University.\nMSc, Computational Science and Engineering, Technical University of Munich.\nB.E, Mechanical Engineering, Government College of Technology.\n\n\n\nLinks\n\nGitHub: https://github.com/AllThingsDynamical\nEmail: dynamicqueries@gmail.com"
+  },
+  {
+    "objectID": "index.html#rahul-manavalan",
+    "href": "index.html#rahul-manavalan",
+    "title": "RM Research",
+    "section": "",
+    "text": "I work on variational formulations, their associated optimization flows, and structure-preserving numerical algorithms for problems in scientific computing and inverse problems."
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Rahul Manavalan",
+    "section": "Recent news",
+    "text": "Recent news\n\n  New preprint: Our paper on Krylov smoothers for solving linear systems is on arxiv."
+  },
+  {
+    "objectID": "collaborations.html",
+    "href": "collaborations.html",
+    "title": "RM Research",
+    "section": "",
+    "text": "University of Cambridge\nTopics\n\nInertial PDEs for image inpainting\nVariational imaging\nDissipative and accelerated flows\nNonlinear regression as a dynamical system\n\n\n\n\nUppsala University\nTopics\n\nRadial basis functions\nKernel interpolation\nBoundary-aware approximation\n\n\n\n\nLinköping University\nTopics\n\nVariational data assimilation\n3D-Var and BV regularization\nInverse problems\n\n\n\n\nLund University\nTopics\n\nGradient and momentum flow solvers\nKrylov methods and exponential integrators\nNumerical linear algebra"
+  },
+  {
+    "objectID": "collaborations.html#collaborations",
+    "href": "collaborations.html#collaborations",
+    "title": "RM Research",
+    "section": "",
+    "text": "My work is shaped by collaborations across scientific computing, numerical analysis, inverse problems, imaging, and uncertainty quantification."
+  },
+  {
+    "objectID": "collaborations.html#current-and-planned-collaborations",
+    "href": "collaborations.html#current-and-planned-collaborations",
+    "title": "RM Research",
+    "section": "Current and planned collaborations",
+    "text": "Current and planned collaborations\n\nCarola-Bibiane Schönlieb\nUniversity of Cambridge\nTopics:\n\nInertial PDEs for image inpainting\nVariational imaging\nDissipative and accelerated flows\nNonlinear regression as a dynamical system\n\n\n\nMengwu Guo\nLund University\nTopics:\n\nGradient and momentum flow solvers\nKrylov methods\nExponential integrators\nNumerical linear algebra\n\n\n\nJan Glaubitz\nLund University\nTopics:\n\nVariational data assimilation\n3D-Var and BV regularization\nInverse problems\nOptimization and numerical analysis\n\n\n\nElisabeth Larsson\nUppsala University\nTopics:\n\nRadial basis functions\nKernel interpolation\nBoundary-aware approximation\nScientific computing"
+  },
+  {
+    "objectID": "collaborations.html#research-network",
+    "href": "collaborations.html#research-network",
+    "title": "RM Research",
+    "section": "Research network",
+    "text": "Research network\nI am interested in collaborations around:\n\ndynamical systems approaches to scientific computing;\nPDE-based image analysis;\nkernel methods and approximation theory;\nrandomized numerical linear algebra;\ninverse problems and data assimilation;\nuncertainty quantification;\nscientific machine learning."
+  },
+  {
+    "objectID": "collaborations.html#collaboration-philosophy",
+    "href": "collaborations.html#collaboration-philosophy",
+    "title": "RM Research",
+    "section": "Collaboration philosophy",
+    "text": "Collaboration philosophy\nI enjoy collaborations that are driven by curiosity and interesting mathematical questions. I am equally interested in theoretical and applied research and enjoy working across both."
+  },
+  {
+    "objectID": "collaborations.html#contact",
+    "href": "collaborations.html#contact",
+    "title": "RM Research",
+    "section": "Contact",
+    "text": "Contact\nFor collaboration inquiries, please reach out to:\nEmail: dynamicqueries@gmail.com"
+  },
+  {
+    "objectID": "collaborations.html#current-collaborations",
+    "href": "collaborations.html#current-collaborations",
+    "title": "RM Research",
+    "section": "",
+    "text": "University of Cambridge\nTopics\n\nInertial PDEs for image inpainting\nVariational imaging\nDissipative and accelerated flows\nNonlinear regression as a dynamical system\n\n\n\n\nUppsala University\nTopics\n\nRadial basis functions\nKernel interpolation\nBoundary-aware approximation\n\n\n\n\nLinköping University\nTopics\n\nVariational data assimilation\n3D-Var and BV regularization\nInverse problems\n\n\n\n\nLund University\nTopics\n\nGradient and momentum flow solvers\nKrylov methods and exponential integrators\nNumerical linear algebra"
+  },
+  {
+    "objectID": "collaborations.html#collaboration-scope",
+    "href": "collaborations.html#collaboration-scope",
+    "title": "RM Research",
+    "section": "Collaboration scope",
+    "text": "Collaboration scope\nI am interested in collaborations around:\n\nDynamical systems approaches to scientific computing\nPDE-based image analysis\nKernel methods and approximation theory\nRandomized numerical linear algebra\nInverse problems and data assimilation\nUncertainty quantification"
+  },
+  {
+    "objectID": "teaching.html#teaching",
+    "href": "teaching.html#teaching",
+    "title": "RM Research",
+    "section": "",
+    "text": "I enjoy teaching foundational topics in scientific computing, probability, and statistics. My aim is to help students develop mathematical intuition alongside practical computational skills.\n\n\n\n\nLund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, and statistical inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and statistical modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, and stationary random fields.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, ordinary differential equations, interpolation, approximation, and numerical methods for scientific computing."
+  },
+  {
+    "objectID": "teaching.html#mentoring",
+    "href": "teaching.html#mentoring",
+    "title": "RM Research",
+    "section": "Mentoring",
+    "text": "Mentoring\nI enjoy intellectually honest discussions with students in all matters scientific computing with a penchant for methodologies. A good place to start a conversation is to read an article from an issue of SIAM SISC and drop me an email to discuss it."
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "RM Research",
+    "section": "",
+    "text": "Lund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, numerical methods for ordinary and partial differential equations."
+  }
+]

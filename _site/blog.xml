@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>RM Research</title>
+<link>https://allthingsdynamical.github.io/blog.html</link>
+<atom:link href="https://allthingsdynamical.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Mathematical essays and reflections.</description>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Tue, 07 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Gradient Flows for Linear Solvers</title>
+  <dc:creator>Rahul Manavalan</dc:creator>
+  <link>https://allthingsdynamical.github.io/posts/gradient-flows-linear-solvers/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-basic-idea" class="level2">
+<h2 class="anchored" data-anchor-id="the-basic-idea">The basic idea</h2>
+<p>Consider the quadratic residual functional</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5CPhi(x)%20=%20%5Cfrac12%20%5C%7CAx-b%5C%7C%5E2.%0A"></p>
+<p>Its gradient flow is</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cdot%7Bx%7D(t)%20=%20-A%5E%5Ctop(Ax(t)-b).%0A"></p>
+<p>For symmetric positive definite systems, a preconditioned flow gives</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cdot%7Bx%7D(t)%20=%20P(b-Ax(t)).%0A"></p>
+<p>The exact finite-time update is</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0Ax(t+%5Ctau)%0A=%0Ax(t)%0A+%0A(PA)%5E%7B-1%7D%5Cleft(I-%5Cexp(-%5Ctau%20PA)%5Cright)P(b-Ax(t)).%0A"></p>
+<p>This suggests a family of solvers indexed by the time step and by the approximation of the matrix function.</p>
+</section>
+<section id="why-this-is-useful" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-is-useful">Why this is useful</h2>
+<p>Small time steps recover classical stationary iterations. Large time steps approximate projection onto a Krylov or spectral subspace. The flow viewpoint gives a clean language for stability, filtering, and acceleration.</p>
+</section>
+<section id="pdf-attachment-pattern" class="level2">
+<h2 class="anchored" data-anchor-id="pdf-attachment-pattern">PDF attachment pattern</h2>
+<p>Put a PDF next to this post and link it:</p>
+<p><a href="paper.pdf">Download the accompanying PDF</a></p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>numerical-analysis</category>
+  <category>linear-systems</category>
+  <category>gradient-flows</category>
+  <guid>https://allthingsdynamical.github.io/posts/gradient-flows-linear-solvers/</guid>
+  <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Nonlinear RKHS Regression as a Dissipative Flow</title>
+  <dc:creator>Rahul Manavalan</dc:creator>
+  <link>https://allthingsdynamical.github.io/posts/nonlinear-rkhs-regression/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Let <img src="https://latex.codecogs.com/png.latex?u"> be an unknown function in a Hilbert space <img src="https://latex.codecogs.com/png.latex?H">. A nonlinear regression problem can be written abstractly as</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cmin_%7Bu%5Cin%20H%7D%0A%5Cfrac12%5C%7CG(u)-y%5C%7C%5E2%20+%20%5Cfrac%7B%5Calpha%7D%7B2%7D%5C%7Cu%5C%7C_H%5E2.%0A"></p>
+<p>The associated gradient flow is</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cdot%7Bu%7D%0A=%0A-%20DG(u)%5E%5Cast(G(u)-y)%20-%20%5Calpha%20u.%0A"></p>
+<p>This turns nonlinear regression into an infinite-dimensional dissipative dynamical system.</p>
+</section>
+<section id="analysis-program" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-program">Analysis program</h2>
+<p>A natural paper structure is:</p>
+<ol type="1">
+<li>well-posedness of the flow;</li>
+<li>existence of absorbing sets;</li>
+<li>existence and regularity of a global attractor;</li>
+<li>convergence to equilibria under a Łojasiewicz–Simon inequality;</li>
+<li>exponential-in-time discretization;</li>
+<li>spatial discretization by FEM or domain decomposition;</li>
+<li>numerical experiments.</li>
+</ol>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>rkhs</category>
+  <category>pde</category>
+  <category>dynamical-systems</category>
+  <guid>https://allthingsdynamical.github.io/posts/nonlinear-rkhs-regression/</guid>
+  <pubDate>Mon, 06 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>PDF Import Demo</title>
+  <dc:creator>Rahul Manavalan</dc:creator>
+  <link>https://allthingsdynamical.github.io/posts/pdf-import-demo/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<p>This template treats PDF upload as a draft-import step, not as the canonical writing format.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">python</span> scripts/pdf_to_post.py assets/papers/sample-paper.pdf</span></code></pre></div>
+<p>The script creates a new draft under <code>posts/</code>.</p>
+<p>For math-heavy documents, keep the <code>.tex</code>, <code>.qmd</code>, or <code>.md</code> source whenever possible.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>workflow</category>
+  <category>pdf</category>
+  <guid>https://allthingsdynamical.github.io/posts/pdf-import-demo/</guid>
+  <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

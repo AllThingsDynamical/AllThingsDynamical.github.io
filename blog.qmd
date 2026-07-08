@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Mathematical notes and research essays."
+description: "Mathematical essays and reflections."
 listing:
   contents: posts
   sort: "date desc"
@@ -10,4 +10,3 @@ listing:
 page-layout: full
 ---
 
-Mathematical notes, research sketches, implementation notes, and essays.

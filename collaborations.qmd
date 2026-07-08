@@ -1,0 +1,84 @@
+---
+title: ""
+description: ""
+---
+
+## Current collaborations
+
+::: {.project-card}
+
+### [Carola-Bibiane Schönlieb](https://www.damtp.cam.ac.uk/person/cbs31)
+
+**University of Cambridge**
+
+**Topics**
+
+- Inertial PDEs for image inpainting
+- Variational imaging
+- Dissipative and accelerated flows
+- Nonlinear regression as a dynamical system
+
+:::
+
+::: {.project-card}
+
+### [Elisabeth Larsson](https://www.uu.se/en/contact-and-organisation/staff?query=N94-2143)
+
+**Uppsala University**
+
+**Topics**
+
+- Radial basis functions
+- Kernel interpolation
+- Boundary-aware approximation
+
+:::
+
+::: {.project-card}
+
+### [Jan Glaubitz](https://www.janglaubitz.com)
+
+**Linköping University**
+
+**Topics**
+
+- Variational data assimilation
+- 3D-Var and BV regularization
+- Inverse problems
+
+:::
+
+::: {.project-card}
+
+### [Mengwu Guo](https://www.mengwuguo.com)
+
+**Lund University**
+
+**Topics**
+
+- Gradient and momentum flow solvers
+- Krylov methods and exponential integrators
+- Numerical linear algebra
+
+:::
+
+## Collaboration scope
+
+I am interested in collaborations around:
+
+- Dynamical systems approaches to scientific computing
+- PDE-based image analysis
+- Kernel methods and approximation theory
+- Randomized numerical linear algebra
+- Inverse problems and data assimilation
+- Uncertainty quantification
+
+## Collaboration philosophy
+
+I enjoy collaborations that are driven by curiosity and interesting mathematical questions. I am equally interested in theoretical and applied research and enjoy working across both.
+
+## Contact
+
+For collaboration inquiries, please reach out to:
+
+**Email:** `dynamicqueries@gmail.com`

@@ -1,11 +1,11 @@
 ---
-title: "Research"
-description: "Research themes and projects."
+title: ""
+description: ""
 ---
 
 ## Research vision
 
-My central interest is the design of numerical methods by passing through a continuous dynamical system:
+My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:
 
 $$
 \text{variational problem}
@@ -17,7 +17,8 @@ $$
 \text{algorithm}.
 $$
 
-This perspective is useful because it separates modeling, stability, geometry, and implementation.
+This perspective is useful because it provides an abstract framework for understanding families of algorithms.
+A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling.
 
 ## Projects
 
@@ -26,21 +27,17 @@ This perspective is useful because it separates modeling, stability, geometry, a
 
 Classical linear solvers can be interpreted as discretizations or approximations of continuous residual flows. The aim is to design finite-time spectral filters and Krylov approximations with strong stability properties.
 
+**Duration:** Oct 2025 to July 2026
+
 **Topics:** linear systems, Krylov methods, exponential integrators, spectral filters.
-:::
-
-::: {.project-card}
-### Boundary-aware kernel interpolation
-
-Kernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.
-
-**Topics:** RBF interpolation, RKHS theory, Coxeter groups, Sobolev spaces.
 :::
 
 ::: {.project-card}
 ### Inertial PDEs for image inpainting
 
 Second-order-in-time variants of dissipative imaging PDEs may improve basin escape and information propagation while retaining stability through suitable semigroup discretizations.
+
+**Duration:** Jan 2026 to July 2026
 
 **Topics:** Cahn--Hilliard, image inpainting, exponential integrators, attractors.
 :::
@@ -50,5 +47,17 @@ Second-order-in-time variants of dissipative imaging PDEs may improve basin esca
 
 Nonlinear regression can be studied through gradient flows in function space, enabling questions about well-posedness, attractors, discretization, and convergence.
 
+**Duration:** July 2026 to Oct 2026
+
 **Topics:** RKHS, Hilbert-space flows, global attractors, Łojasiewicz inequalities.
+:::
+
+::: {.project-card}
+### Boundary-aware kernel interpolation
+
+Kernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.
+
+**Duration:** July 2026 to Nov 2026
+
+**Topics:** RBF interpolation, RKHS theory, Coxeter groups, Approximation theory.
 :::
