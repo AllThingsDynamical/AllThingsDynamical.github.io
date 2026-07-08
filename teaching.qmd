@@ -1,0 +1,15 @@
+---
+title: "Teaching"
+description: "Teaching, tutorials, and lecture notes."
+---
+
+## Courses and tutorials
+
+- Numerical linear algebra
+- Scientific computing
+- Probability and statistics
+- Optimization
+
+## Lecture notes
+
+Add PDFs or Quarto notes here.

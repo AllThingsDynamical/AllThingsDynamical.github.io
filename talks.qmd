@@ -1,0 +1,15 @@
+---
+title: "Talks"
+description: "Seminars, talks, and presentations."
+---
+
+## Upcoming
+
+Add upcoming talks here.
+
+## Selected talks
+
+::: {.timeline}
+- **2026** — *Gradient and Momentum Flows for Linear Systems*, seminar placeholder.
+- **2026** — *Boundary-Aware Kernel Interpolation*, seminar placeholder.
+:::

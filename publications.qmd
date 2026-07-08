@@ -1,0 +1,63 @@
+---
+title: "Publications"
+description: "Papers, preprints, and manuscripts."
+---
+
+## Selected publications and preprints
+
+::: {.publication}
+**Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems**  
+Rahul Manavalan and Mengwu Guo.  
+*Manuscript in preparation.*
+
+[PDF](assets/papers/sample-paper.pdf){.btn .btn-sm .btn-outline} [BibTeX](#bibtex-linear-flows){.btn .btn-sm .btn-outline}
+:::
+
+::: {.publication}
+**Boundary-Aware Kernel Interpolation on Symmetric Domains**  
+Rahul Manavalan and Elisabeth Larsson.  
+*Manuscript in preparation.*
+
+[PDF](assets/papers/sample-paper.pdf){.btn .btn-sm .btn-outline} [BibTeX](#bibtex-boundary-kernels){.btn .btn-sm .btn-outline}
+:::
+
+::: {.publication}
+**Inertial Cahn--Hilliard Flows for Image Inpainting**  
+Rahul Manavalan and Carola-Bibiane Schönlieb.  
+*Manuscript in preparation.*
+
+[PDF](assets/papers/sample-paper.pdf){.btn .btn-sm .btn-outline} [BibTeX](#bibtex-inertial-inpainting){.btn .btn-sm .btn-outline}
+:::
+
+## BibTeX
+
+```bibtex
+@unpublished{manavalan2026linearflows,
+  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},
+  author = {Manavalan, Rahul and Guo, Mengwu},
+  year   = {2026},
+  note   = {Manuscript in preparation}
+}
+```
+
+```bibtex
+@unpublished{manavalan2026boundarykernels,
+  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},
+  author = {Manavalan, Rahul and Larsson, Elisabeth},
+  year   = {2026},
+  note   = {Manuscript in preparation}
+}
+```
+
+```bibtex
+@unpublished{manavalan2026inertialinpainting,
+  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},
+  author = {Manavalan, Rahul and Sch{\"o}nlieb, Carola-Bibiane},
+  year   = {2026},
+  note   = {Manuscript in preparation}
+}
+```
+
+## Optional: generate this page from BibTeX
+
+For a larger publication list, keep entries in `references.bib` and render them with Quarto citations.

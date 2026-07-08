@@ -1,0 +1,77 @@
+---
+title: "Rahul Manavalan"
+description: "Academic portfolio in scientific computing, dynamical systems, and numerical analysis."
+listing: false
+---
+
+::: {.hero}
+::: {.hero-text}
+# Rahul Manavalan
+
+### Scientific Computing · Dynamical Systems · Numerical Analysis
+
+I work on variational formulations, continuous-time flows, and structure-preserving numerical algorithms for scientific computing.
+
+[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline} [Blog](blog.qmd){.btn .btn-outline}
+:::
+
+::: {.hero-card}
+**Current theme**
+
+Variational problem  
+$\rightarrow$ flow/operator  
+$\rightarrow$ discretization  
+$\rightarrow$ algorithm
+
+**Keywords**
+
+gradient flows · momentum flows · PDEs · Krylov methods · kernels · UQ
+:::
+:::
+
+## Selected research directions
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+### Flow-based solvers
+
+Exponential and inertial flows for linear systems, inverse problems, and constrained optimization.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Kernel and spline methods
+
+Boundary-aware interpolation, generalized observations, and approximation on structured domains.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Imaging and PDEs
+
+Dissipative and inertial PDE models for restoration, inpainting, and inverse problems.
+:::
+:::
+
+## Recent notes
+
+```{=html}
+<div class="callout-note">
+  <strong>Edit this template:</strong> replace the placeholder email, CV, publication metadata, and project descriptions with your real details.
+</div>
+```
+
+## Latest blog posts
+
+```{=html}
+<div class="post-grid">
+  <a class="post-card" href="posts/gradient-flows-linear-solvers/">
+    <span class="post-tag">Numerical analysis</span>
+    <h3>Gradient Flows for Linear Solvers</h3>
+    <p>A short note on viewing classical iterative methods as discretized flows.</p>
+  </a>
+  <a class="post-card" href="posts/nonlinear-rkhs-regression/">
+    <span class="post-tag">Dynamical systems</span>
+    <h3>Nonlinear RKHS Regression as a Flow</h3>
+    <p>Sketching a dissipative PDE viewpoint for nonlinear regression.</p>
+  </a>
+</div>
+```

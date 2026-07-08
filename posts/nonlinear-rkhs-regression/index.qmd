@@ -1,0 +1,38 @@
+---
+title: "Nonlinear RKHS Regression as a Dissipative Flow"
+description: "A sketch of a function-space dynamical systems viewpoint on nonlinear regression."
+date: 2026-07-07
+categories: [rkhs, pde, dynamical-systems]
+author: "Rahul Manavalan"
+---
+
+## Setup
+
+Let $u$ be an unknown function in a Hilbert space $H$. A nonlinear regression problem can be written abstractly as
+
+$$
+\min_{u\in H}
+\frac12\|G(u)-y\|^2 + \frac{\alpha}{2}\|u\|_H^2.
+$$
+
+The associated gradient flow is
+
+$$
+\dot{u}
+=
+- DG(u)^\ast(G(u)-y) - \alpha u.
+$$
+
+This turns nonlinear regression into an infinite-dimensional dissipative dynamical system.
+
+## Analysis program
+
+A natural paper structure is:
+
+1. well-posedness of the flow;
+2. existence of absorbing sets;
+3. existence and regularity of a global attractor;
+4. convergence to equilibria under a Łojasiewicz--Simon inequality;
+5. exponential-in-time discretization;
+6. spatial discretization by FEM or domain decomposition;
+7. numerical experiments.

@@ -1,0 +1,32 @@
+---
+title: "Software"
+description: "Research software and code."
+---
+
+::: {.project-card}
+### RandomizedLinearAlgebra.jl
+
+A planned Julia package for randomized solvers, randomized eigensolvers, sketching, and low-rank approximation.
+
+**Status:** prototype.
+:::
+
+::: {.project-card}
+### FlowSolvers.jl
+
+Prototype implementations for gradient-flow and momentum-flow solvers for linear systems.
+
+**Status:** experimental.
+:::
+
+::: {.project-card}
+### PDF-to-blog importer
+
+This template includes a small script:
+
+```bash
+python scripts/pdf_to_post.py path/to/file.pdf
+```
+
+It produces a draft Quarto post. Math-heavy PDFs still need manual cleanup.
+:::

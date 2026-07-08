@@ -1,0 +1,13 @@
+---
+title: "Blog"
+description: "Mathematical notes and research essays."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
+page-layout: full
+---
+
+Mathematical notes, research sketches, implementation notes, and essays.

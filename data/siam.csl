@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>Minimal Numeric</title>
+    <id>http://www.zotero.org/styles/minimal-numeric</id>
+    <link href="http://www.zotero.org/styles/minimal-numeric" rel="self"/>
+    <author><name>Template</name></author>
+    <category citation-format="numeric"/>
+    <updated>2026-01-01T00:00:00+00:00</updated>
+  </info>
+  <citation collapse="citation-number">
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout suffix=".">
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <names variable="author" suffix=", ">
+        <name and="text" initialize-with="."/>
+      </names>
+      <text variable="title" quotes="true" suffix=", "/>
+      <text variable="container-title" font-style="italic" suffix=", "/>
+      <date variable="issued"><date-part name="year"/></date>
+    </layout>
+  </bibliography>
+</style>

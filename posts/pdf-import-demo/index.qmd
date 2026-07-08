@@ -1,0 +1,19 @@
+---
+title: "PDF Import Demo"
+description: "Demonstrates the PDF-to-post workflow."
+date: 2026-07-06
+categories: [workflow, pdf]
+author: "Rahul Manavalan"
+---
+
+## Workflow
+
+This template treats PDF upload as a draft-import step, not as the canonical writing format.
+
+```bash
+python scripts/pdf_to_post.py assets/papers/sample-paper.pdf
+```
+
+The script creates a new draft under `posts/`.
+
+For math-heavy documents, keep the `.tex`, `.qmd`, or `.md` source whenever possible.

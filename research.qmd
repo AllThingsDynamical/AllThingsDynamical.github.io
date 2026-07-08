@@ -1,0 +1,54 @@
+---
+title: "Research"
+description: "Research themes and projects."
+---
+
+## Research vision
+
+My central interest is the design of numerical methods by passing through a continuous dynamical system:
+
+$$
+\text{variational problem}
+\quad\longrightarrow\quad
+\text{flow}
+\quad\longrightarrow\quad
+\text{discretization}
+\quad\longrightarrow\quad
+\text{algorithm}.
+$$
+
+This perspective is useful because it separates modeling, stability, geometry, and implementation.
+
+## Projects
+
+::: {.project-card}
+### Unconditionally stable gradient and momentum flow solvers
+
+Classical linear solvers can be interpreted as discretizations or approximations of continuous residual flows. The aim is to design finite-time spectral filters and Krylov approximations with strong stability properties.
+
+**Topics:** linear systems, Krylov methods, exponential integrators, spectral filters.
+:::
+
+::: {.project-card}
+### Boundary-aware kernel interpolation
+
+Kernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.
+
+**Topics:** RBF interpolation, RKHS theory, Coxeter groups, Sobolev spaces.
+:::
+
+::: {.project-card}
+### Inertial PDEs for image inpainting
+
+Second-order-in-time variants of dissipative imaging PDEs may improve basin escape and information propagation while retaining stability through suitable semigroup discretizations.
+
+**Topics:** Cahn--Hilliard, image inpainting, exponential integrators, attractors.
+:::
+
+::: {.project-card}
+### Nonlinear regression as a dissipative dynamical system
+
+Nonlinear regression can be studied through gradient flows in function space, enabling questions about well-posedness, attractors, discretization, and convergence.
+
+**Topics:** RKHS, Hilbert-space flows, global attractors, Łojasiewicz inequalities.
+:::

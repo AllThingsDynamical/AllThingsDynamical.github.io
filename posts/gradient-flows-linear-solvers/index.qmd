@@ -1,0 +1,50 @@
+---
+title: "Gradient Flows for Linear Solvers"
+description: "A short note on deriving iterative solvers from continuous residual flows."
+date: 2026-07-08
+categories: [numerical-analysis, linear-systems, gradient-flows]
+author: "Rahul Manavalan"
+bibliography: ../../references.bib
+---
+
+## The basic idea
+
+Consider the quadratic residual functional
+
+$$
+\Phi(x) = \frac12 \|Ax-b\|^2.
+$$
+
+Its gradient flow is
+
+$$
+\dot{x}(t) = -A^\top(Ax(t)-b).
+$$
+
+For symmetric positive definite systems, a preconditioned flow gives
+
+$$
+\dot{x}(t) = P(b-Ax(t)).
+$$
+
+The exact finite-time update is
+
+$$
+x(t+\tau)
+=
+x(t)
++
+(PA)^{-1}\left(I-\exp(-\tau PA)\right)P(b-Ax(t)).
+$$
+
+This suggests a family of solvers indexed by the time step and by the approximation of the matrix function.
+
+## Why this is useful
+
+Small time steps recover classical stationary iterations. Large time steps approximate projection onto a Krylov or spectral subspace. The flow viewpoint gives a clean language for stability, filtering, and acceleration.
+
+## PDF attachment pattern
+
+Put a PDF next to this post and link it:
+
+[Download the accompanying PDF](paper.pdf)

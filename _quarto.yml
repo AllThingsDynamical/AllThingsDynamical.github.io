@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+
+website:
+  title: "All Things Dynamical"
+  site-url: "https://allthingsdynamical.github.io"
+  description: "Academic portfolio and mathematical blog of Rahul Manavalan."
+  favicon: assets/img/favicon.svg
+  open-graph: true
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  navbar:
+    pinned: true
+    logo: assets/img/favicon.svg
+    title: "All Things Dynamical"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: talks.qmd
+        text: Talks
+      - href: teaching.qmd
+        text: Teaching
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/AllThingsDynamical
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:your.email@example.com
+        aria-label: Email
+  sidebar:
+    - id: blog
+      title: "Blog"
+      style: docked
+      background: light
+      contents:
+        - blog.qmd
+        - section: "Posts"
+          contents: posts/*/index.qmd
+  page-footer:
+    left: "© Rahul Manavalan"
+    center: "Built with Quarto"
+    right:
+      - icon: github
+        href: https://github.com/AllThingsDynamical/AllThingsDynamical.github.io
+
+bibliography: references.bib
+csl: data/siam.csl
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/css/theme.scss]
+      dark: [darkly, assets/css/theme.scss]
+    css: assets/css/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    include-after-body:
+      - text: |
+          <script src="/assets/js/site.js"></script>
+
+execute:
+  freeze: auto
