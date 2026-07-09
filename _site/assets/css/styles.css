@@ -154,3 +154,62 @@ html[data-bs-theme="dark"] .btn-outline {
   color: #f1f3f7 !important;
   border-color: rgba(255, 255, 255, 0.25);
 }
+
+
+/* Add to assets/css/styles.css */
+
+.timeline{
+  position:relative;
+  margin:2rem 0;
+}
+
+.timeline::before{
+  content:"";
+  position:absolute;
+  left:180px;
+  top:0;
+  bottom:0;
+  width:2px;
+  background:var(--atm-border);
+}
+
+.timeline-item{
+  display:grid;
+  grid-template-columns:160px 1fr;
+  gap:2rem;
+  margin-bottom:2rem;
+  position:relative;
+}
+
+.timeline-item::before{
+  content:"";
+  position:absolute;
+  left:173px;
+  top:12px;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:var(--atm-accent);
+}
+
+.timeline-date{
+  text-align:right;
+  color:var(--atm-muted);
+}
+
+.timeline-content{
+  background:var(--atm-card);
+  border:1px solid var(--atm-border);
+  border-radius:16px;
+  padding:1.25rem;
+}
+
+@media (max-width:700px){
+  .timeline::before{left:18px;}
+  .timeline-item{
+    grid-template-columns:1fr;
+    padding-left:2.5rem;
+  }
+  .timeline-item::before{left:11px;}
+  .timeline-date{text-align:left;}
+}

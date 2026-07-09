@@ -30,8 +30,10 @@ website:
         text: Publications
       - href: collaborations.qmd
         text: Collaborations
-      - href: software.qmd
-        text: Software
+      # - href: software.qmd
+      #   text: Software
+      - href: news.qmd
+        text: News
       - href: teaching.qmd
         text: Teaching
       - href: blog.qmd

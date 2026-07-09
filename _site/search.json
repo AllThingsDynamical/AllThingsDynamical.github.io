@@ -97,14 +97,14 @@
     "href": "publications.html",
     "title": "RM Research",
     "section": "",
-    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
+    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Krylov Smoothers for Solving Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
   },
   {
     "objectID": "publications.html#selected-publications-and-preprints",
     "href": "publications.html#selected-publications-and-preprints",
     "title": "RM Research",
     "section": "",
-    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
+    "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Krylov Smoothers for Solving Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
   },
   {
     "objectID": "publications.html#bibtex",
@@ -276,7 +276,7 @@
     "href": "index.html#recent-news",
     "title": "Rahul Manavalan",
     "section": "Recent news",
-    "text": "Recent news\n\n  New preprint: Our paper on Krylov smoothers for solving linear systems is on arxiv."
+    "text": "Recent news\n\n  (July 2026) New preprint: Our paper on Krylov smoothers for solving linear systems is on arxiv."
   },
   {
     "objectID": "collaborations.html",
@@ -354,5 +354,40 @@
     "title": "RM Research",
     "section": "",
     "text": "Lund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, numerical methods for ordinary and partial differential equations."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "November\n\n\n\nPlanned research visit to the Department of Applied Mathematics and Theoretical Physics (DAMTP).\n\n\n\n\nAugust\n\n\n\nPresented the talk Kernel Regression with Boundary Constraints.\n\n\n\n\nMay\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\nNovember\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\nAugust\n\n\n\nPresented the poster Preconditioning Radial Basis Functions Using Semi-Group Operators at the Workshop on Early Career Pioneers in UQ and AI.\n\n\n\n\nJune\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\n\n\n\nPresented the poster Systems Identification Using Random Feature Neural Networks at the Workshop on Scientific Machine Learning.\n\n\n\n\n\n\n\n\nPresented the poster Full Waveform Inversion Using Neural Operators.\n\n\n\n\n\nAugust\n\n\n\nParticipated in the DFTK Summer School.\n\n\n\n\nMay\n\n\n\nStudent volunteer.\n\n\n\n\n\nJune\n\n\n\nParticipated in the Guest Student Program."
+  },
+  {
+    "objectID": "news.html#section",
+    "href": "news.html#section",
+    "title": "News",
+    "section": "",
+    "text": "November"
+  },
+  {
+    "objectID": "news.html#section-1",
+    "href": "news.html#section-1",
+    "title": "News",
+    "section": "",
+    "text": "November"
+  },
+  {
+    "objectID": "news.html#section-4",
+    "href": "news.html#section-4",
+    "title": "News",
+    "section": "",
+    "text": "August"
+  },
+  {
+    "objectID": "news.html#section-5",
+    "href": "news.html#section-5",
+    "title": "News",
+    "section": "",
+    "text": "June"
   }
 ]

@@ -18,8 +18,33 @@ description: ""
 
 ```bibtex
 @unpublished{manavalan2026linearflows,
-  title  = {Unconditionally Stable Gradient and Momentum Flow Solvers for Linear Systems},
+  title  = {Krylov Smoothers for Solving Linear Systems},
   author = {Manavalan, Rahul and Guo, Mengwu},
+  year   = {2026},
+  note   = {Manuscript in preparation}
+}
+```
+</details>
+
+:::
+
+---
+
+::: {.publication}
+
+### Inertial Cahn--Hilliard Flows for Image Inpainting
+
+**Rahul Manavalan** and Carola-Bibiane Schönlieb
+
+*Manuscript in preparation.*
+[PDF](assets/papers/sample-paper.pdf){.btn .btn-sm .btn-outline}
+<details>
+<summary><strong>BibTeX</strong></summary>
+
+```bibtex
+@unpublished{manavalan2026inertialinpainting,
+  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},
+  author = {Manavalan, Rahul and Sch{\"o}nlieb, Carola-Bibiane},
   year   = {2026},
   note   = {Manuscript in preparation}
 }
@@ -53,27 +78,3 @@ description: ""
 
 :::
 
----
-
-::: {.publication}
-
-### Inertial Cahn--Hilliard Flows for Image Inpainting
-
-**Rahul Manavalan** and Carola-Bibiane Schönlieb
-
-*Manuscript in preparation.*
-[PDF](assets/papers/sample-paper.pdf){.btn .btn-sm .btn-outline}
-<details>
-<summary><strong>BibTeX</strong></summary>
-
-```bibtex
-@unpublished{manavalan2026inertialinpainting,
-  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},
-  author = {Manavalan, Rahul and Sch{\"o}nlieb, Carola-Bibiane},
-  year   = {2026},
-  note   = {Manuscript in preparation}
-}
-```
-</details>
-
-:::

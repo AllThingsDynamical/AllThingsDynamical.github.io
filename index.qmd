@@ -54,7 +54,7 @@ How can **PDEs that arise from inverse problems** be used to obtain **theoretica
 
 ```{=html}
 <div class="callout-note">
-  <strong>New preprint:</strong> Our paper on <i>Krylov smoothers for solving linear systems</i> is on <i>arxiv</i>.
+  <strong>(July 2026) New preprint:</strong> Our paper on <i>Krylov smoothers for solving linear systems</i> is on <i>arxiv</i>.
 </div>
 
 ```

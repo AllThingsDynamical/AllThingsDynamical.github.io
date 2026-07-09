@@ -1,0 +1,192 @@
+---
+title: "News"
+description: "Research updates, visits, presentations, and academic milestones."
+---
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2026
+
+**November**
+
+</div>
+
+<div class="timeline-content">
+
+### Research Visit — University of Cambridge
+
+Planned research visit to the Department of Applied Mathematics and Theoretical Physics (DAMTP).
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+**August**
+
+</div>
+
+<div class="timeline-content">
+
+### Statistics Day, Lund University
+
+Presented the talk **Kernel Regression with Boundary Constraints**.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+**May**
+
+</div>
+
+<div class="timeline-content">
+
+### Research Visit — Linköping University
+
+Visited the Department of Scientific Computing.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2025
+
+**November**
+
+</div>
+
+<div class="timeline-content">
+
+### Research Visit — Linköping University
+
+Visited the Department of Scientific Computing.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+**August**
+
+</div>
+
+<div class="timeline-content">
+
+### Isaac Newton Institute, Cambridge
+
+Presented the poster **Preconditioning Radial Basis Functions Using Semi-Group Operators** at the *Workshop on Early Career Pioneers in UQ and AI*.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+**June**
+
+</div>
+
+<div class="timeline-content">
+
+### Research Visit — Uppsala University
+
+Visited the Department of Scientific Computing.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2024
+
+</div>
+
+<div class="timeline-content">
+
+### CWI Amsterdam
+
+Presented the poster **Systems Identification Using Random Feature Neural Networks** at the *Workshop on Scientific Machine Learning*.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2023
+
+</div>
+
+<div class="timeline-content">
+
+### SIAM CSE, Amsterdam
+
+Presented the poster **Full Waveform Inversion Using Neural Operators**.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2022
+
+**August**
+
+</div>
+
+<div class="timeline-content">
+
+### DFTK Summer School, Paris
+
+Participated in the DFTK Summer School.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+**May**
+
+</div>
+
+<div class="timeline-content">
+
+### International Supercomputing Conference, Hamburg
+
+Student volunteer.
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">
+
+## 2021
+
+**June**
+
+</div>
+
+<div class="timeline-content">
+
+### Forschungszentrum Jülich
+
+Participated in the Guest Student Program.
+
+</div>
+</div>
+
+</div>

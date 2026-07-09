@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research updates, visits, presentations, and academic milestones.">
 
-<title>research – RM Research</title>
+<title>News – RM Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,42 +70,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/css/styles.css">
-<meta property="og:title" content="– RM Research">
-<meta property="og:description" content="Academic website and mathematical blog of Rahul Manavalan.">
+<meta property="og:title" content="News – RM Research">
+<meta property="og:description" content="Research updates, visits, presentations, and academic milestones.">
 <meta property="og:site_name" content="RM Research">
-<meta name="twitter:title" content="– RM Research">
-<meta name="twitter:description" content="Academic website and mathematical blog of Rahul Manavalan.">
+<meta name="twitter:title" content="News – RM Research">
+<meta name="twitter:description" content="Research updates, visits, presentations, and academic milestones.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -133,7 +105,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -145,7 +117,7 @@ window.Quarto = {
 <span class="menu-text">Collaborations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.qmd"> 
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -189,71 +161,143 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#research-vision" id="toc-research-vision" class="nav-link active" data-scroll-target="#research-vision">Research vision</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a>
-  <ul class="collapse">
-  <li><a href="#unconditionally-stable-gradient-and-momentum-flow-solvers" id="toc-unconditionally-stable-gradient-and-momentum-flow-solvers" class="nav-link" data-scroll-target="#unconditionally-stable-gradient-and-momentum-flow-solvers">Unconditionally stable gradient and momentum flow solvers</a></li>
-  <li><a href="#inertial-pdes-for-image-inpainting" id="toc-inertial-pdes-for-image-inpainting" class="nav-link" data-scroll-target="#inertial-pdes-for-image-inpainting">Inertial PDEs for image inpainting</a></li>
-  <li><a href="#nonlinear-regression-as-a-dissipative-dynamical-system" id="toc-nonlinear-regression-as-a-dissipative-dynamical-system" class="nav-link" data-scroll-target="#nonlinear-regression-as-a-dissipative-dynamical-system">Nonlinear regression as a dissipative dynamical system</a></li>
-  <li><a href="#boundary-aware-kernel-interpolation" id="toc-boundary-aware-kernel-interpolation" class="nav-link" data-scroll-target="#boundary-aware-kernel-interpolation">Boundary-aware kernel interpolation</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">News</h1>
+</div>
+
+<div>
+  <div class="description">
+    Research updates, visits, presentations, and academic milestones.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<section id="research-vision" class="level2">
-<h2 class="anchored" data-anchor-id="research-vision">Research vision</h2>
-<p>My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:</p>
-<p><span class="math display">\[
-\text{variational problem}
-\quad\longrightarrow\quad
-\text{flow}
-\quad\longrightarrow\quad
-\text{discretization}
-\quad\longrightarrow\quad
-\text{algorithm}.
-\]</span></p>
-<p>This perspective is useful because it provides an abstract framework for understanding families of algorithms. A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling.</p>
-</section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<section id="unconditionally-stable-gradient-and-momentum-flow-solvers" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="unconditionally-stable-gradient-and-momentum-flow-solvers">Unconditionally stable gradient and momentum flow solvers</h3>
-<p>Classical linear solvers can be interpreted as discretizations or approximations of continuous residual flows. The aim is to design finite-time spectral filters and Krylov approximations with strong stability properties.</p>
-<p><strong>Duration:</strong> Oct 2025 to July 2026</p>
-<p><strong>Topics:</strong> linear systems, Krylov methods, exponential integrators, spectral filters.</p>
-</section>
-<section id="inertial-pdes-for-image-inpainting" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="inertial-pdes-for-image-inpainting">Inertial PDEs for image inpainting</h3>
-<p>Second-order-in-time variants of dissipative imaging PDEs may improve basin escape and information propagation while retaining stability through suitable semigroup discretizations.</p>
-<p><strong>Duration:</strong> Jan 2026 to July 2026</p>
-<p><strong>Topics:</strong> Cahn–Hilliard, image inpainting, exponential integrators, attractors.</p>
-</section>
-<section id="nonlinear-regression-as-a-dissipative-dynamical-system" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="nonlinear-regression-as-a-dissipative-dynamical-system">Nonlinear regression as a dissipative dynamical system</h3>
-<p>Nonlinear regression can be studied through gradient flows in function space, enabling questions about well-posedness, attractors, discretization, and convergence.</p>
-<p><strong>Duration:</strong> July 2026 to Oct 2026</p>
-<p><strong>Topics:</strong> RKHS, Hilbert-space flows, global attractors, Łojasiewicz inequalities.</p>
-</section>
-<section id="boundary-aware-kernel-interpolation" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="boundary-aware-kernel-interpolation">Boundary-aware kernel interpolation</h3>
-<p>Kernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.</p>
-<p><strong>Duration:</strong> July 2026 to Nov 2026</p>
-<p><strong>Topics:</strong> RBF interpolation, RKHS theory, Coxeter groups, Approximation theory.</p>
-</section>
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<div class="timeline">
+<div class="timeline-item">
+<section id="section" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section">2026</h2>
+<p><strong>November</strong></p>
 </section>
+<section id="research-visit-university-of-cambridge" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="research-visit-university-of-cambridge">Research Visit — University of Cambridge</h3>
+<p>Planned research visit to the Department of Applied Mathematics and Theoretical Physics (DAMTP).</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+<p><strong>August</strong></p>
+</div>
+<section id="statistics-day-lund-university" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="statistics-day-lund-university">Statistics Day, Lund University</h3>
+<p>Presented the talk <strong>Kernel Regression with Boundary Constraints</strong>.</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+<p><strong>May</strong></p>
+</div>
+<section id="research-visit-linköping-university" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="research-visit-linköping-university">Research Visit — Linköping University</h3>
+<p>Visited the Department of Scientific Computing.</p>
+</section>
+</div>
+<div class="timeline-item">
+<section id="section-1" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section-1">2025</h2>
+<p><strong>November</strong></p>
+</section>
+<section id="research-visit-linköping-university-1" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="research-visit-linköping-university-1">Research Visit — Linköping University</h3>
+<p>Visited the Department of Scientific Computing.</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+<p><strong>August</strong></p>
+</div>
+<section id="isaac-newton-institute-cambridge" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="isaac-newton-institute-cambridge">Isaac Newton Institute, Cambridge</h3>
+<p>Presented the poster <strong>Preconditioning Radial Basis Functions Using Semi-Group Operators</strong> at the <em>Workshop on Early Career Pioneers in UQ and AI</em>.</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+<p><strong>June</strong></p>
+</div>
+<section id="research-visit-uppsala-university" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="research-visit-uppsala-university">Research Visit — Uppsala University</h3>
+<p>Visited the Department of Scientific Computing.</p>
+</section>
+</div>
+<div class="timeline-item">
+<section id="section-2" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section-2">2024</h2>
+</section>
+<section id="cwi-amsterdam" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="cwi-amsterdam">CWI Amsterdam</h3>
+<p>Presented the poster <strong>Systems Identification Using Random Feature Neural Networks</strong> at the <em>Workshop on Scientific Machine Learning</em>.</p>
+</section>
+</div>
+<div class="timeline-item">
+<section id="section-3" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section-3">2023</h2>
+</section>
+<section id="siam-cse-amsterdam" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="siam-cse-amsterdam">SIAM CSE, Amsterdam</h3>
+<p>Presented the poster <strong>Full Waveform Inversion Using Neural Operators</strong>.</p>
+</section>
+</div>
+<div class="timeline-item">
+<section id="section-4" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section-4">2022</h2>
+<p><strong>August</strong></p>
+</section>
+<section id="dftk-summer-school-paris" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="dftk-summer-school-paris">DFTK Summer School, Paris</h3>
+<p>Participated in the DFTK Summer School.</p>
+</section>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+<p><strong>May</strong></p>
+</div>
+<section id="international-supercomputing-conference-hamburg" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="international-supercomputing-conference-hamburg">International Supercomputing Conference, Hamburg</h3>
+<p>Student volunteer.</p>
+</section>
+</div>
+<div class="timeline-item">
+<section id="section-5" class="level2 timeline-date">
+<h2 class="anchored" data-anchor-id="section-5">2021</h2>
+<p><strong>June</strong></p>
+</section>
+<section id="forschungszentrum-jülich" class="level3 timeline-content">
+<h3 class="anchored" data-anchor-id="forschungszentrum-jülich">Forschungszentrum Jülich</h3>
+<p>Participated in the Guest Student Program.</p>
+</section>
+</div>
+</div>
+
+
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
