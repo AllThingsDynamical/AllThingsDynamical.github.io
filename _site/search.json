@@ -2,21 +2,21 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:\n\\[\n\\text{variational problem}\n\\quad\\longrightarrow\\quad\n\\text{flow}\n\\quad\\longrightarrow\\quad\n\\text{discretization}\n\\quad\\longrightarrow\\quad\n\\text{algorithm}.\n\\]\nThis perspective is useful because it provides an abstract framework for understanding families of algorithms. A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling."
   },
   {
     "objectID": "research.html#research-vision",
     "href": "research.html#research-vision",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "My central interest is the design of numerical methods for variational problems by passing through a continuous dynamical system:\n\\[\n\\text{variational problem}\n\\quad\\longrightarrow\\quad\n\\text{flow}\n\\quad\\longrightarrow\\quad\n\\text{discretization}\n\\quad\\longrightarrow\\quad\n\\text{algorithm}.\n\\]\nThis perspective is useful because it provides an abstract framework for understanding families of algorithms. A closely related dual to this is the Bayesian formulation of variational problems and the relationship between the aforementioned flows and Monte-Carlo sampling."
   },
   {
     "objectID": "research.html#projects",
     "href": "research.html#projects",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "Projects",
     "text": "Projects\n\nUnconditionally stable gradient and momentum flow solvers\nClassical linear solvers can be interpreted as discretizations or approximations of continuous residual flows. The aim is to design finite-time spectral filters and Krylov approximations with strong stability properties.\nDuration: Oct 2025 to July 2026\nTopics: linear systems, Krylov methods, exponential integrators, spectral filters.\n\n\nInertial PDEs for image inpainting\nSecond-order-in-time variants of dissipative imaging PDEs may improve basin escape and information propagation while retaining stability through suitable semigroup discretizations.\nDuration: Jan 2026 to July 2026\nTopics: Cahn–Hilliard, image inpainting, exponential integrators, attractors.\n\n\nNonlinear regression as a dissipative dynamical system\nNonlinear regression can be studied through gradient flows in function space, enabling questions about well-posedness, attractors, discretization, and convergence.\nDuration: July 2026 to Oct 2026\nTopics: RKHS, Hilbert-space flows, global attractors, Łojasiewicz inequalities.\n\n\nBoundary-aware kernel interpolation\nKernel interpolation on symmetric domains can incorporate exact boundary conditions using group actions, reflections, and symmetry-aware kernels.\nDuration: July 2026 to Nov 2026\nTopics: RBF interpolation, RKHS theory, Coxeter groups, Approximation theory."
   },
@@ -83,7 +83,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download CV\n\nAbout\nRahul Manavalan\nMPhil student in mathematical statistics and scientific computing.\n\n\nInterests\nScientific computing, numerical analysis, inverse problems, and uncertainty quantification.\n\n\nEducation\n\nMPhil/Licentiate, Mathematical Statistics, Lund University.\nMSc, Computational Science and Engineering, Technical University of Munich.\nB.E, Mechanical Engineering, Government College of Technology.\n\n\n\nContact\n\nGitHub: https://github.com/AllThingsDynamical\nEmail: dynamicqueries@gmail.com\n\n\n\n\n\n Back to top"
+    "text": "MPhil Student in Mathematical Statistics and Scientific Computing\nLund University, Sweden\nDownload CV\n\n\nI am an MPhil student in Mathematical Statistics at Lund University with a background in Computational Science and Engineering from the Technical University of Munich.\n\n\n\n\nLicentiate (MPhil equivalent), Mathematical Statistics\nLund University\nMSc, Computational Science and Engineering\nTechnical University of Munich\nB.E., Mechanical Engineering\nGovernment College of Technology, Coimbatore\n\n\n\n\n\n\nWebsite\n\n\nGitHub\n\n\nG-Scholar\n\n\nLinkedIn\n\n\nORCID\n\n\nYouTube\n\n\nEmail"
   },
   {
     "objectID": "cv.html#snapshot",
@@ -95,14 +95,14 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Krylov Smoothers for Solving Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
   },
   {
     "objectID": "publications.html#selected-publications-and-preprints",
     "href": "publications.html#selected-publications-and-preprints",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "Rahul Manavalan and Mengwu Guo\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026linearflows,\n  title  = {Krylov Smoothers for Solving Linear Systems},\n  author = {Manavalan, Rahul and Guo, Mengwu},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Carola-Bibiane Schönlieb\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026inertialinpainting,\n  title  = {Inertial Cahn--Hilliard Flows for Image Inpainting},\n  author = {Manavalan, Rahul and Sch{\\\"o}nlieb, Carola-Bibiane},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}\n\n\n\n\n\nRahul Manavalan and Elisabeth Larsson\nManuscript in preparation. PDF\n\n\nBibTeX\n\n@unpublished{manavalan2026boundarykernels,\n  title  = {Boundary-Aware Kernel Interpolation on Symmetric Domains},\n  author = {Manavalan, Rahul and Larsson, Elisabeth},\n  year   = {2026},\n  note   = {Manuscript in preparation}\n}"
   },
@@ -239,7 +239,7 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "Lund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, numerical methods for ordinary and partial differential equations."
   },
@@ -261,8 +261,8 @@
     "objectID": "cv.html#about",
     "href": "cv.html#about",
     "title": "CV",
-    "section": "About",
-    "text": "About\nRahul Manavalan\nMPhil student in mathematical statistics / scientific computing.\n\nInterests\nScientific computing, numerical analysis, inverse problems, and uncertainty quantification.\n\n\nEducation\n\nMPhil/Licentiate, Mathematical Statistics, Lund University.\nMSc, Computational Science and Engineering, Technical University of Munich.\nB.E, Mechanical Engineering, Government College of Technology.\n\n\n\nLinks\n\nGitHub: https://github.com/AllThingsDynamical\nEmail: dynamicqueries@gmail.com"
+    "section": "",
+    "text": "I am an MPhil student in Mathematical Statistics at Lund University with a background in Computational Science and Engineering from the Technical University of Munich."
   },
   {
     "objectID": "index.html#rahul-manavalan",
@@ -281,7 +281,7 @@
   {
     "objectID": "collaborations.html",
     "href": "collaborations.html",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "University of Cambridge\nTopics\n\nInertial PDEs for image inpainting\nVariational imaging\nDissipative and accelerated flows\nNonlinear regression as a dynamical system\n\n\n\n\nUppsala University\nTopics\n\nRadial basis functions\nKernel interpolation\nBoundary-aware approximation\n\n\n\n\nLinköping University\nTopics\n\nVariational data assimilation\n3D-Var and BV regularization\nInverse problems\n\n\n\n\nLund University\nTopics\n\nGradient and momentum flow solvers\nKrylov methods and exponential integrators\nNumerical linear algebra"
   },
@@ -309,28 +309,28 @@
   {
     "objectID": "collaborations.html#collaboration-philosophy",
     "href": "collaborations.html#collaboration-philosophy",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "Collaboration philosophy",
     "text": "Collaboration philosophy\nI enjoy collaborations that are driven by curiosity and interesting mathematical questions. I am equally interested in theoretical and applied research and enjoy working across both."
   },
   {
     "objectID": "collaborations.html#contact",
     "href": "collaborations.html#contact",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "Contact",
     "text": "Contact\nFor collaboration inquiries, please reach out to:\nEmail: dynamicqueries@gmail.com"
   },
   {
     "objectID": "collaborations.html#current-collaborations",
     "href": "collaborations.html#current-collaborations",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "University of Cambridge\nTopics\n\nInertial PDEs for image inpainting\nVariational imaging\nDissipative and accelerated flows\nNonlinear regression as a dynamical system\n\n\n\n\nUppsala University\nTopics\n\nRadial basis functions\nKernel interpolation\nBoundary-aware approximation\n\n\n\n\nLinköping University\nTopics\n\nVariational data assimilation\n3D-Var and BV regularization\nInverse problems\n\n\n\n\nLund University\nTopics\n\nGradient and momentum flow solvers\nKrylov methods and exponential integrators\nNumerical linear algebra"
   },
   {
     "objectID": "collaborations.html#collaboration-scope",
     "href": "collaborations.html#collaboration-scope",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "Collaboration scope",
     "text": "Collaboration scope\nI am interested in collaborations around:\n\nDynamical systems approaches to scientific computing\nPDE-based image analysis\nKernel methods and approximation theory\nRandomized numerical linear algebra\nInverse problems and data assimilation\nUncertainty quantification"
   },
@@ -344,14 +344,14 @@
   {
     "objectID": "teaching.html#mentoring",
     "href": "teaching.html#mentoring",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "Mentoring",
     "text": "Mentoring\nI enjoy intellectually honest discussions with students in all matters scientific computing with a penchant for methodologies. A good place to start a conversation is to read an article from an issue of SIAM SISC and drop me an email to discuss it."
   },
   {
     "objectID": "teaching.html#teaching-assistant",
     "href": "teaching.html#teaching-assistant",
-    "title": "RM Research",
+    "title": "Rahul Manavalan",
     "section": "",
     "text": "Lund University\n2025–2026\nTopics include Monte Carlo integration, importance sampling, Markov chain Monte Carlo, Bootstrap and their applications in Bayesian inference.\n\n\n\nLund University\n2024–2026\nTopics include stochastic processes, autoregressive models, forecasting, and state space modeling of time series.\n\n\n\nLund University\n2024–2026\nTopics include covariance functions, spectral representations, Gaussian processes, stationary random fields and their applications in signal processing.\n\n\n\nTechnical University of Munich\n2022\nTopics included numerical linear algebra, numerical methods for ordinary and partial differential equations."
   },
@@ -360,14 +360,14 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "November\n\n\n\nPlanned research visit to the Department of Applied Mathematics and Theoretical Physics (DAMTP).\n\n\n\n\nAugust\n\n\n\nPresented the talk Kernel Regression with Boundary Constraints.\n\n\n\n\nMay\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\nNovember\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\nAugust\n\n\n\nPresented the poster Preconditioning Radial Basis Functions Using Semi-Group Operators at the Workshop on Early Career Pioneers in UQ and AI.\n\n\n\n\nJune\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\nMarch\n\n\n\nStarted the Licentiate / MPhil programme in Mathematical Statistics at Lund University.\n\n\n\n\n\n\n\n\nPresented the poster Systems Identification Using Random Feature Neural Networks at the Workshop on Scientific Machine Learning.\n\n\n\n\n\nNovember\n\n\n\nGraduated with an M.Sc. in Computational Science and Engineering from the Technical University of Munich.\n\n\n\n\n\n\n\n\nPresented the poster Full Waveform Inversion Using Neural Operators.\n\n\n\n\n\nAugust\n\n\n\nParticipated in the DFTK Summer School.\n\n\n\n\nMay\n\n\n\nServed as a student volunteer.\n\n\n\n\n\nJune\n\n\n\nParticipated in the Guest Student Program.\n\n\n\n\n\nNovember\n\n\n\nStarted the M.Sc. programme in Computational Science and Engineering at the Technical University of Munich."
+    "text": "January-February\n\n\n\nPlanned research visit to the Department of Applied Mathematics and Theoretical Physics (DAMTP).\n\n\n\n\nAugust\n\n\n\nPresented the talk Kernel Regression with Boundary Constraints.\n\n\n\n\nMay\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\nNovember\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\nAugust\n\n\n\nPresented the poster Preconditioning Radial Basis Functions Using Semi-Group Operators at the Workshop on Early Career Pioneers in UQ and AI.\n\n\n\n\nJune\n\n\n\nVisited the Department of Scientific Computing.\n\n\n\n\n\nMarch\n\n\n\nStarted the Licentiate / MPhil programme in Mathematical Statistics at Lund University.\n\n\n\n\n\n\n\n\nPresented the poster Systems Identification Using Random Feature Neural Networks at the Workshop on Scientific Machine Learning.\n\n\n\n\n\nNovember\n\n\n\nGraduated with an M.Sc. in Computational Science and Engineering from the Technical University of Munich.\n\n\n\n\n\n\n\n\nPresented the poster Full Waveform Inversion Using Neural Operators.\n\n\n\n\n\nAugust\n\n\n\nParticipated in the DFTK Summer School.\n\n\n\n\nMay\n\n\n\nServed as a student volunteer.\n\n\n\n\n\nJune\n\n\n\nParticipated in the Guest Student Program.\n\n\n\n\n\nNovember\n\n\n\nStarted the M.Sc. programme in Computational Science and Engineering at the Technical University of Munich."
   },
   {
     "objectID": "news.html#section",
     "href": "news.html#section",
     "title": "News",
     "section": "",
-    "text": "November"
+    "text": "January-February"
   },
   {
     "objectID": "news.html#section-1",
@@ -417,5 +417,33 @@
     "title": "News",
     "section": "",
     "text": "November"
+  },
+  {
+    "objectID": "vignettes.html",
+    "href": "vignettes.html",
+    "title": "Vignettes",
+    "section": "",
+    "text": "I make PDE simulations and animate them in my free time. I also publish these animations on YouTube.\n Visit my YouTube channel \n\n\n\n\nA few of them are presented here:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "vignettes.html#youtube",
+    "href": "vignettes.html#youtube",
+    "title": "Vignettes",
+    "section": "YouTube",
+    "text": "YouTube\nI also publish these animations on YouTube.\n Visit my YouTube channel"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "Licentiate (MPhil equivalent), Mathematical Statistics\nLund University\nMSc, Computational Science and Engineering\nTechnical University of Munich\nB.E., Mechanical Engineering\nGovernment College of Technology, Coimbatore"
+  },
+  {
+    "objectID": "cv.html#connect",
+    "href": "cv.html#connect",
+    "title": "CV",
+    "section": "",
+    "text": "Website\n\n\nGitHub\n\n\nG-Scholar\n\n\nLinkedIn\n\n\nORCID\n\n\nYouTube\n\n\nEmail"
   }
 ]

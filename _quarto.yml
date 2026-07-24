@@ -6,7 +6,7 @@ project:
     - assets/**
 
 website:
-  title: "RM Research"
+  title: "Rahul Manavalan"
   site-url: "https://allthingsdynamical.github.io"
   description: "Academic website and mathematical blog of Rahul Manavalan."
   favicon: assets/img/favicon.svg
@@ -21,7 +21,7 @@ website:
   navbar:
     pinned: true
     logo: assets/img/favicon.svg
-    title: "RM Research"
+    title: "Rahul Manavalan"
     left:
       - href: index.qmd
         text: Home
@@ -33,14 +33,17 @@ website:
         text: Collaborations
       # - href: software.qmd
       #   text: Software
+      - href: cv.qmd
+        text: CV
+      - href: vignettes.qmd
+        text: Vignettes
       - href: news.qmd
         text: News
       - href: teaching.qmd
         text: Teaching
       - href: blog.qmd
         text: Blog
-      - href: cv.qmd
-        text: CV
+
     right:
       - icon: github
         href: https://github.com/AllThingsDynamical

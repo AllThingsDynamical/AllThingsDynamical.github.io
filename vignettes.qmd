@@ -1,0 +1,105 @@
+---
+title: "Vignettes"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+I make PDE simulations and animate them in my free time. 
+I also publish these animations on YouTube.
+
+
+<a href="https://www.youtube.com/@Rahul-Manavalan"
+   target="_blank"
+   class="btn btn-primary">
+Visit my YouTube channel
+</a>
+<style>
+.shorts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 340px));
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.short {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<div style="margin-bottom:0.75rem;"></div>
+
+A few of them are presented here:
+
+::: {.shorts-grid}
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/b17FHimQgAE"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/LRgkDFEumc4"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/J4P2DLq3mIs"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/luH-q-RxGHI"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/fx2_mxyGeVk"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/6cxk8xTec30"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+
+:::

@@ -8,9 +8,9 @@ description: "Research updates, visits, presentations, and academic milestones."
 <div class="timeline-item">
 <div class="timeline-date">
 
-## 2026
+## 2027
 
-**November**
+**January-February**
 
 </div>
 

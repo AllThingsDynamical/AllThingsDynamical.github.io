@@ -3,24 +3,58 @@ title: "CV"
 description: "Curriculum vitae."
 ---
 
+# Rahul Manavalan
+
+*MPhil Student in Mathematical Statistics and Scientific Computing*  
+Lund University, Sweden
+
 [Download CV](assets/cv/cv.pdf){.btn .btn-primary}
 
-### About
+## About
 
-**Rahul Manavalan**  
-MPhil student in mathematical statistics and scientific computing.
+I am an MPhil student in Mathematical Statistics at Lund University with a background in Computational Science and Engineering from the Technical University of Munich.
 
-### Interests
+## Education
 
-Scientific computing, numerical analysis, inverse problems, and uncertainty quantification.
+- **Licentiate (MPhil equivalent), Mathematical Statistics**  
+  Lund University
 
-### Education
+- **MSc, Computational Science and Engineering**  
+  Technical University of Munich
 
-- MPhil/Licentiate, Mathematical Statistics, Lund University.
-- MSc, Computational Science and Engineering, Technical University of Munich.
-- B.E, Mechanical Engineering, Government College of Technology.
+- **B.E., Mechanical Engineering**  
+  Government College of Technology, Coimbatore
 
-### Contact
+## Connect
 
-- GitHub: <https://github.com/AllThingsDynamical>
-- Email: `dynamicqueries@gmail.com`
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+[Website](https://rahulmanavalan.com){.btn .btn-outline-primary .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[GitHub](https://github.com/AllThingsDynamical){.btn .btn-outline-dark .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[G-Scholar](https://scholar.google.com/citations?user=o5oyB84AAAAJ&hl=en){.btn .btn-outline-success .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[LinkedIn](https://www.linkedin.com/in/rahul-manavalan/){.btn .btn-outline-info .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[ORCID](https://orcid.org/0009-0001-0842-2369){.btn .btn-outline-secondary .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[YouTube](https://www.youtube.com/@Rahul-Manavalan){.btn .btn-outline-danger .w-100}
+:::
+
+::: {.g-col-6 .g-col-md-3}
+[Email](mailto:dynamicqueries@gmail.com){.btn .btn-outline-primary .w-100}
+:::
+
+:::
