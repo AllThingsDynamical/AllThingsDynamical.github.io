@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Gradient Flows for Linear Solvers\n\n\n\nnumerical-analysis\n\n\nlinear-systems\n\n\ngradient-flows\n\n\n\nA short note on deriving iterative solvers from continuous residual flows.\n\n\n\nRahul Manavalan\n\n\nJul 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nNonlinear RKHS Regression as a Dissipative Flow\n\n\n\nrkhs\n\n\npde\n\n\ndynamical-systems\n\n\n\nA sketch of a function-space dynamical systems viewpoint on nonlinear regression.\n\n\n\nRahul Manavalan\n\n\nJul 7, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Saddle Point Solvers\n\n\n\nnumerical-analysis\n\n\nlinear-systems\n\n\ngradient-flows\n\n\n\nA short note on deriving iterative solvers for saddle point problems.\n\n\n\nRahul Manavalan\n\n\nJul 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Solvers\n\n\n\nnumerical-analysis\n\n\nlinear-systems\n\n\ngradient-flows\n\n\n\nA short note on deriving iterative solvers from continuous residual flows.\n\n\n\nRahul Manavalan\n\n\nJul 8, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog"
     ]
@@ -330,5 +330,65 @@
     "title": "Rahul Manavalan",
     "section": "Mentoring",
     "text": "Mentoring\nI enjoy intellectually honest discussions with students in all matters scientific computing with a penchant for methodologies. A good place to start a conversation is to read an article from an issue of SIAM SISC and drop me an email to discuss it."
+  },
+  {
+    "objectID": "posts/linear-solvers/index.html",
+    "href": "posts/linear-solvers/index.html",
+    "title": "Linear Solvers",
+    "section": "",
+    "text": "Consider the quadratic residual functional\n\\[\n\\Phi(x) = \\frac12 \\|Ax-b\\|^2.\n\\]\nIts gradient flow is\n\\[\n\\dot{x}(t) = -A^\\top(Ax(t)-b).\n\\]\nFor symmetric positive definite systems, a preconditioned flow gives\n\\[\n\\dot{x}(t) = P(b-Ax(t)).\n\\]\nThe exact finite-time update is\n\\[\nx(t+\\tau)\n=\nx(t)\n+\n(PA)^{-1}\\left(I-\\exp(-\\tau PA)\\right)P(b-Ax(t)).\n\\]\nThis suggests a family of solvers indexed by the time step and by the approximation of the matrix function.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/linear-solvers/index.html#the-basic-idea",
+    "href": "posts/linear-solvers/index.html#the-basic-idea",
+    "title": "Linear Solvers",
+    "section": "",
+    "text": "Consider the quadratic residual functional\n\\[\n\\Phi(x) = \\frac12 \\|Ax-b\\|^2.\n\\]\nIts gradient flow is\n\\[\n\\dot{x}(t) = -A^\\top(Ax(t)-b).\n\\]\nFor symmetric positive definite systems, a preconditioned flow gives\n\\[\n\\dot{x}(t) = P(b-Ax(t)).\n\\]\nThe exact finite-time update is\n\\[\nx(t+\\tau)\n=\nx(t)\n+\n(PA)^{-1}\\left(I-\\exp(-\\tau PA)\\right)P(b-Ax(t)).\n\\]\nThis suggests a family of solvers indexed by the time step and by the approximation of the matrix function.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/linear-solvers/index.html#why-this-is-useful",
+    "href": "posts/linear-solvers/index.html#why-this-is-useful",
+    "title": "Linear Solvers",
+    "section": "Why this is useful",
+    "text": "Why this is useful\nSmall time steps recover classical stationary iterations. Large time steps approximate projection onto a Krylov or spectral subspace. The flow viewpoint gives a clean language for stability, filtering, and acceleration.",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/linear-solvers/index.html#pdf-attachment-pattern",
+    "href": "posts/linear-solvers/index.html#pdf-attachment-pattern",
+    "title": "Linear Solvers",
+    "section": "PDF attachment pattern",
+    "text": "PDF attachment pattern\nPut a PDF next to this post and link it:\nDownload the accompanying PDF",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Linear Solvers"
+    ]
+  },
+  {
+    "objectID": "posts/saddle-point-solvers/index.html",
+    "href": "posts/saddle-point-solvers/index.html",
+    "title": "Saddle Point Solvers",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Blog",
+      "Posts",
+      "Saddle Point Solvers"
+    ]
   }
 ]

@@ -1,0 +1,8 @@
+---
+title: "Saddle Point Solvers"
+description: "A short note on deriving iterative solvers for saddle point problems."
+date: 2026-07-08
+categories: [numerical-analysis, linear-systems, gradient-flows]
+author: "Rahul Manavalan"
+bibliography: ../../references.bib
+---

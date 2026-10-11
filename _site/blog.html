@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./posts/nonlinear-rkhs-regression/index.html" rel="next">
+<link href="./posts/saddle-point-solvers/index.html" rel="next">
 <link href="./assets/img/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
@@ -166,16 +166,12 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./collaborations.html"> 
-<span class="menu-text">Collaborations</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./vignettes.html"> 
-<span class="menu-text">Vignettes</span></a>
+    <a class="nav-link" href="./collaborations.html"> 
+<span class="menu-text">Collaborations</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
@@ -186,6 +182,10 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./vignettes.html"> 
+<span class="menu-text">Vignettes</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
@@ -193,11 +193,6 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/AllThingsDynamical"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./dynamicqueries@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -247,14 +242,14 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/nonlinear-rkhs-regression/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nonlinear RKHS Regression as a Dissipative Flow</span></a>
+  <a href="./posts/saddle-point-solvers/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Saddle Point Solvers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/gradient-flows-linear-solvers/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gradient Flows for Linear Solvers</span></a>
+  <a href="./posts/linear-solvers/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Linear Solvers</span></a>
   </div>
 </li>
       </ul>
@@ -266,7 +261,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dynamical-systems">dynamical-systems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gradient-flows">gradient-flows <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linear-systems">linear-systems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="numerical-analysis">numerical-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pde">pde <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rkhs">rkhs <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="gradient-flows">gradient-flows <span class="quarto-category-count">(2)</span></div><div class="category" data-category="linear-systems">linear-systems <span class="quarto-category-count">(2)</span></div><div class="category" data-category="numerical-analysis">numerical-analysis <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -300,13 +295,47 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="numerical-analysis,linear-systems,gradient-flows" data-listing-date-sort="1783461600000" data-listing-file-modified-sort="1783511362000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<a href="./posts/gradient-flows-linear-solvers/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="numerical-analysis,linear-systems,gradient-flows" data-listing-date-sort="1783461600000" data-listing-file-modified-sort="1791753355988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./posts/saddle-point-solvers/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Gradient Flows for Linear Solvers
+Saddle Point Solvers
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('numerical-analysis'); return false;">
+numerical-analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('linear-systems'); return false;">
+linear-systems
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('gradient-flows'); return false;">
+gradient-flows
+</div>
+</div>
+<div class="card-text listing-description">
+A short note on deriving iterative solvers for saddle point problems.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Rahul Manavalan
+</div>
+<div class="listing-date">
+Jul 8, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="numerical-analysis,linear-systems,gradient-flows" data-listing-date-sort="1783461600000" data-listing-file-modified-sort="1791753402883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<a href="./posts/linear-solvers/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Linear Solvers
 </h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('numerical-analysis'); return false;">
@@ -328,40 +357,6 @@ Rahul Manavalan
 </div>
 <div class="listing-date">
 Jul 8, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="rkhs,pde,dynamical-systems" data-listing-date-sort="1783375200000" data-listing-file-modified-sort="1783511362000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./posts/nonlinear-rkhs-regression/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nonlinear RKHS Regression as a Dissipative Flow
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('rkhs'); return false;">
-rkhs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pde'); return false;">
-pde
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dynamical-systems'); return false;">
-dynamical-systems
-</div>
-</div>
-<div class="card-text listing-description">
-A sketch of a function-space dynamical systems viewpoint on nonlinear regression.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Rahul Manavalan
-</div>
-<div class="listing-date">
-Jul 7, 2026
 </div>
 </div>
 </div>
@@ -946,8 +941,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./posts/nonlinear-rkhs-regression/index.html" class="pagination-link" aria-label="Nonlinear RKHS Regression as a Dissipative Flow">
-        <span class="nav-page-text">Nonlinear RKHS Regression as a Dissipative Flow</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./posts/saddle-point-solvers/index.html" class="pagination-link" aria-label="Saddle Point Solvers">
+        <span class="nav-page-text">Saddle Point Solvers</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

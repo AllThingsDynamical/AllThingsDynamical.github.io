@@ -1,5 +1,5 @@
 ---
-title: "Gradient Flows for Linear Solvers"
+title: "Linear Solvers"
 description: "A short note on deriving iterative solvers from continuous residual flows."
 date: 2026-07-08
 categories: [numerical-analysis, linear-systems, gradient-flows]
@@ -42,9 +42,3 @@ This suggests a family of solvers indexed by the time step and by the approximat
 ## Why this is useful
 
 Small time steps recover classical stationary iterations. Large time steps approximate projection onto a Krylov or spectral subspace. The flow viewpoint gives a clean language for stability, filtering, and acceleration.
-
-## PDF attachment pattern
-
-Put a PDF next to this post and link it:
-
-[Download the accompanying PDF](paper.pdf)

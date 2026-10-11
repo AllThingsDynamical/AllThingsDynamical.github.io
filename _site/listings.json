@@ -2,8 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/gradient-flows-linear-solvers/index.html",
-      "/posts/nonlinear-rkhs-regression/index.html"
+      "/posts/saddle-point-solvers/index.html",
+      "/posts/linear-solvers/index.html"
     ]
   }
 ]
