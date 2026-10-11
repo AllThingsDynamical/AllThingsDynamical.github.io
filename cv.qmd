@@ -8,7 +8,6 @@ description: "Curriculum vitae."
 *MPhil Student in Mathematical Statistics and Scientific Computing*  
 Lund University, Sweden
 
-[Download CV](assets/cv/cv.pdf){.btn .btn-primary}
 
 ## About
 

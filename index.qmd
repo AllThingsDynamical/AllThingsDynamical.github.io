@@ -17,11 +17,6 @@ Broadly, my interests span:
 - Numerical Analysis
 - Uncertainty quantification
 - Inverse Problems
-
-For more details, visit:
-
-
-[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-primary} [Blog](blog.qmd){.btn .btn-primary}
 :::
 
 ![](assets/img/images.jpeg){width=100%}
@@ -50,14 +45,7 @@ How can **PDEs that arise from inverse problems** be used to obtain **theoretica
 :::
 :::
 
-## Recent news
 
-```{=html}
-<div class="callout-note">
-  <strong>(July 2026) New preprint:</strong> Our paper on <i>Krylov smoothers for solving linear systems</i> is on <i>arxiv</i>.
-</div>
-
-```
 
 ## Latest blog posts
 

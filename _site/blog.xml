@@ -91,32 +91,5 @@
   <guid>https://allthingsdynamical.github.io/posts/nonlinear-rkhs-regression/</guid>
   <pubDate>Mon, 06 Jul 2026 22:00:00 GMT</pubDate>
 </item>
-<item>
-  <title>PDF Import Demo</title>
-  <dc:creator>Rahul Manavalan</dc:creator>
-  <link>https://allthingsdynamical.github.io/posts/pdf-import-demo/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="workflow" class="level2">
-<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
-<p>This template treats PDF upload as a draft-import step, not as the canonical writing format.</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">python</span> scripts/pdf_to_post.py assets/papers/sample-paper.pdf</span></code></pre></div>
-<p>The script creates a new draft under <code>posts/</code>.</p>
-<p>For math-heavy documents, keep the <code>.tex</code>, <code>.qmd</code>, or <code>.md</code> source whenever possible.</p>
-
-
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>workflow</category>
-  <category>pdf</category>
-  <guid>https://allthingsdynamical.github.io/posts/pdf-import-demo/</guid>
-  <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-</item>
 </channel>
 </rss>

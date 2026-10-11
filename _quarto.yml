@@ -25,22 +25,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
+      - href: cv.qmd
+        text: CV
+      # - href: research.qmd
+        # text: Research
+      # - href: publications.qmd
+        # text: Publications
       - href: collaborations.qmd
         text: Collaborations
       # - href: software.qmd
       #   text: Software
-      - href: cv.qmd
-        text: CV
-      - href: vignettes.qmd
-        text: Vignettes
       - href: news.qmd
         text: News
       - href: teaching.qmd
         text: Teaching
+      - href: vignettes.qmd
+        text: Vignettes
       - href: blog.qmd
         text: Blog
 
@@ -48,14 +48,11 @@ website:
       - icon: github
         href: https://github.com/AllThingsDynamical
         aria-label: GitHub
-      - icon: envelope
-        href: dynamicqueries@gmail.com
-        aria-label: Email
   sidebar:
     - id: blog
       title: "Blog"
       style: docked
-      background: light
+      background: dark
       contents:
         - blog.qmd
         - section: "Posts"
@@ -74,7 +71,7 @@ format:
   html:
     theme:
       light: [cosmo, assets/css/theme.scss]
-      dark: [darkly, assets/css/theme.scss]
+      dark: [cosmo, assets/css/theme.scss]
     css: assets/css/styles.css
     toc: true
     toc-depth: 3
