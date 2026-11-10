@@ -126,7 +126,7 @@
     "href": "index.html#selected-research-directions",
     "title": "Rahul Manavalan",
     "section": "Selected research directions",
-    "text": "Selected research directions\n\n\nFlow-based solvers\nHow can one derive and classify iterative solvers for solving linear algebraic systems and saddle point systems as discretizations of continuous dynamical systems?\n\n\nKernel methods\nHow can one construct RBF kernels that exactly satisfy Dirichlet and Neumann boundary conditions?\n\n\nInverse Problems and PDEs\nHow can PDEs that arise from inverse problems be used to obtain theoretical guarantees on the numerical methods that solve the corresponding inverse problems?"
+    "text": "Selected research directions\n\n\nFlow-based solvers\nHow can one derive and classify iterative solvers for solving linear algebraic systems and saddle point systems as discretizations of continuous dynamical systems?\n\n\nKernel methods\nHow can one construct RBF kernels that exactly satisfy Dirichlet and Neumann boundary conditions?\n\n\nInverse Problems and PDEs\nHow can PDEs that arise from inverse problems be used to obtain theoretical guarantees on the numerical methods that solve the corresponding inverse problems?\n\n\n\n  📢 Latest News\n\n  \n    NOVEMBER 2026\n  \n\n  \n    1. 🎉 Our new preprint\n    \n      Finite-time Cholesky factorization ↗\n    \n    is now available on arXiv!"
   },
   {
     "objectID": "index.html#recent-news",
@@ -140,7 +140,7 @@
     "href": "index.html#latest-blog-posts",
     "title": "Rahul Manavalan",
     "section": "Latest blog posts",
-    "text": "Latest blog posts\n\n  \n    Numerical analysis\n    Gradient Flows for Linear Solvers\n    A short note on viewing classical iterative methods as discretized flows.\n  \n  \n    Dynamical systems\n    Nonlinear RKHS Regression as a Flow\n    Sketching a dissipative PDE viewpoint for nonlinear regression."
+    "text": "Latest blog posts\n\n  \n    Numerical analysis\n    Gradient Flows for Linear Solvers\n    A short note on viewing classical iterative methods as discretized flows."
   },
   {
     "objectID": "talks.html",
